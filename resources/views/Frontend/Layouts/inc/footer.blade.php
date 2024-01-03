@@ -51,16 +51,6 @@
                     </div>
                     <div class="col-lg-3 col-md-5 col-sm-6">
                         <div class="footer-widget">
-                            <h4 class="fw-title">Quick Links</h4>
-                            <div class="footer-link">
-                                <ul class="list-wrap">
-                                    <li><a href="contact.html">How it’s Work</a></li>
-                                    <li><a href="contact.html">Partners</a></li>
-                                    <li><a href="contact.html">Testimonials</a></li>
-                                    <li><a href="contact.html">Case Studies</a></li>
-                                    <li><a href="contact.html">Pricing</a></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-7">
@@ -90,7 +80,7 @@
                                 <form action="{{ route("subscribe") }}" method="POST">
                                     @csrf
                                     @method("POST")
-                                    <input type="email" name="email" placeholder="enter your e-mail">
+                                    <input type="email" name="email" placeholder="Email">
                                     <button name="submit" type="submit">{{__("Subscribe")}}</button>
                                 </form>
                             </div>

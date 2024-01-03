@@ -1,7 +1,7 @@
 @extends('Frontend.Layouts.app')
 
 @section('title')
-    Qarabaq.info
+    Qarabaq.info - Qarabağda baş verən yenilikləri bizdən öyrənin.
 @endsection
 
 @section('content')
